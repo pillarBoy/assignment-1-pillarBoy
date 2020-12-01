@@ -50,6 +50,20 @@ without launching it:
 make build
 ```
 
+or run shell, but You need to assign execution permissions to the `scripts` folder first.
+
+permission
+
+```sh
+chmod -R u+x ./scripts
+```
+
+build shell
+
+```sh
+./scripts/build.sh
+```
+
 ### Embedded Docs
 
 Once the project has been built, the following command can be used to explore all parameters and
